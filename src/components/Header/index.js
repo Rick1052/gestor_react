@@ -127,7 +127,7 @@ function Header(){
                                     <li>
                                         <Link 
                                             className="dropdown-item" 
-                                            to=""
+                                            to="/vendas"
                                         >Pedidos de Venda</Link>
                                     </li>
                                     
