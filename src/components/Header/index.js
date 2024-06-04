@@ -170,7 +170,7 @@ function Header(){
                                     <li>
                                         <Link
                                             className="dropdown-item"
-                                            to=""
+                                            to="/contas_pagar"
                                         >Contas a Pagar</Link>
                                     </li>
 

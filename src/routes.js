@@ -7,6 +7,7 @@ import Cliente from "./pages/cadastro/Cliente/index";
 import CadCliente from "./pages/cadastro/Cliente/cad_cliente";
 import Vendas from "./pages/Vendas";
 import IncluirVenda from "./pages/Vendas/IncluirVenda";
+import ContasPagar from "./pages/ContasPagar";
 
 function RoutesApp(){
     return(
@@ -18,6 +19,7 @@ function RoutesApp(){
                 <Route path="/cad_cliente" element={<CadCliente/>}/>
                 <Route path="/vendas" element={<Vendas/>}/>
                 <Route path="/incluir_pedido" element={<IncluirVenda/>}/>
+                <Route path="/contas_pagar" element={<ContasPagar/>}/>
             </Routes>
         </BrowserRouter>
     );
